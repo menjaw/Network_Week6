@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="Style/bootstrap.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center">Http exercise</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Monitoring HTTP Headers 1</h3>
+                    <p>This was the first observes I made:</p>
+                    <ul>
+                        <li>6 Request</li>
+                        <li>122 B Transferred</li>
+                        <li>Finish: 996 ms</li>
+                        <li>DOMContentLoaded: 826 ms</li>
+                        <li>Load: 819 ms</li>
+                    </ul>
+                    <br>
+                    <p>After the index file was renamed this was the values:</p>
+                    <ul>
+                        <li>6 Request</li>
+                        <li>809 B Transferred</li>
+                        <li>Finish: 1.13 s</li>
+                        <li>DOMContentLoaded: 1.03 s</li>
+                        <li>Load: 1.15 s</li>
+                    </ul>
+                    <br>
+                    <p>Observed: I takes longer to reload the page after the name was changed</p>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Monitoring HTTP Headers 2</h3>
+                    <p>Values after the image was added</p>
+                    <img src="Img/Header2.PNG" alt="" class="img-fluid"/>
+                    <img src="Img/Header2.1.PNG" alt="" class="img-fluid"/>
+                    <p>The header connection Keep-Alive indicates wheter the client can handle persistence HTTP connections. It allow the client or other browsers to retrieve multiplie files with just a single request.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <h3>Monitoring HTTP Headers 3</h3>
+                        <p>Request: http://studypoints.dk:</p>
+                        <p>Ended: https://studypoints.dk/#/view1</p>
+                    </div>
+                    <img src="Img/Header3.PNG" alt="" class="img-fluid"/>
+                    <img src="Img/Header3.PNG" alt="" class="img-fluid" style="margin-left: 50px;"/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
